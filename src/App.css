@@ -1,0 +1,15 @@
+.help-button{
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    color: var(--clr-white);
+    background-color: var(--clr-blue);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+    border: none;
+}
+
+.help-button:hover{
+    cursor: pointer;
+}

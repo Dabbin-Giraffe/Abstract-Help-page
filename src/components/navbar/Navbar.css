@@ -1,0 +1,109 @@
+.wrapper {
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--clr-black);
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    color: var(--clr-white);
+}
+
+.left-sub-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+.logo p {
+    margin-left: 0.5rem;
+}
+
+.left-sub-container img {
+    width: 2.25rem;
+    margin: 1rem 0rem 1rem 5rem;
+    background-color: var(--clr-white);
+    border-radius: 3rem;
+}
+
+.logo:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.help-center {
+    display: flex;
+}
+
+.help-center span {
+    margin: 0 0.5rem;
+}
+
+.help-center a {
+    color: var(--clr-white);
+}
+
+.help-center a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.right-sub-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+
+
+.button-secondary {
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+    border-radius: 0.5rem;
+    border: 1px solid var(--clr-white);
+    padding: 0.4rem;
+}
+
+.button-secondary:hover {
+    cursor: pointer;
+}
+
+.button-secondary p {
+    padding: 0.25rem 1rem 0.25rem 1rem;
+}
+
+.button-primary {
+    border-radius: 0.5rem;
+    background-color: var(--clr-blue);
+    border: none;
+    margin: 0 10rem 0 1rem;
+    padding: 0.5rem 1rem;
+    color: var(--clr-white);
+    transition: all 0.2s ease;
+}
+
+.button-primary:hover {
+    cursor: pointer;
+    background-color: var(--clr-white);
+    color: black;
+}
+
+.button-primary p {
+    padding: 0.25rem 1rem 0.25rem 1rem;
+}
+
+/* 1200 hamburger menu */
+
+@media(max-width:1070px) {}
